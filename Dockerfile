@@ -39,7 +39,7 @@ RUN cd /tmp && \
 RUN cd /tmp && \
 	git clone https://gitlab.freedesktop.org/libnice/libnice && \
 	cd libnice && \
-	git checkout 0.1.17 && \
+	git checkout 0.1.18 && \
 	./autogen.sh && \
 	./configure --prefix=/usr && \
 	make && \
